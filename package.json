@@ -1,0 +1,11 @@
+{
+  "name": "mechelingo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve-static.mjs",
+    "build": "node scripts/verify-static.mjs",
+    "lint": "node scripts/verify-static.mjs"
+  }
+}
