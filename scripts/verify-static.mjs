@@ -14,6 +14,7 @@ const requiredFiles = [
 await Promise.all(requiredFiles.map((file) => access(file, constants.R_OK)));
 
 const [html, app, data, styles, packageJson] = await Promise.all([
+const [html, app, data, styles] = await Promise.all([
   readFile('index.html', 'utf8'),
   readFile('src/app.js', 'utf8'),
   readFile('src/data.js', 'utf8'),

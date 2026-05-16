@@ -19,20 +19,13 @@ The app uses three subject tracks to mirror the high-level PRC mechanical engine
 
 ## Development
 
-This first pass is dependency-free and can run as a static web app. It uses a tiny Node.js static server for `npm run dev`, so it does not depend on the command being named `python3` or `python` on your computer.
+This first pass is dependency-free and can run as a static web app.
 
 ```bash
 npm run dev
 ```
 
-Then open <http://127.0.0.1:5173>.
-
-If you prefer Python, either of these works from the repo root depending on how Python is installed on your machine:
-
-```bash
-python -m http.server 5173
-python3 -m http.server 5173
-```
+Then open <http://localhost:5173>.
 
 ## Checks
 
