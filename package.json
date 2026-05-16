@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "dev": "node scripts/serve-static.mjs",
     "dev": "python3 -m http.server 5173",
     "build": "node scripts/verify-static.mjs",
     "lint": "node scripts/verify-static.mjs"
